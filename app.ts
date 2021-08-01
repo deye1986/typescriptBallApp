@@ -27,7 +27,7 @@ class Ball {
 
   }
 
-  getBallInfo() {
+  getBallInfo(this) {
     console.log(`ball size is ${this.size}`);
     console.log(` X axis start position is ${this.xStartPos}`);
     console.log(` Y axis start position is ${this.yStartPos}`);
@@ -36,17 +36,18 @@ class Ball {
   }
   
   placeBall() {
-    let randomPlace = Math.floor(Math.random() * (500 - 1 + 1)) + 1;
+    let randomPlace: number = Math.floor(Math.random() * (500 - 1 + 1)) + 1;
     console.log(`xAxis = ${randomPlace} & yAxis = ${randomPlace}`)
+    return randomPlace
   }
 
-  drawBall() {
+  drawBall(this) {
     let testBall = new PIXI.graphics();
     testBall.beginFill(this.colour);
-    testBall.drawCircle(0, 0, this.size);
+    testBall.drawCircle(this.placeBall(), this.placeBall(), this.size);
     testBall.endFill();
-    app.stage.addChild(testBall);
     console.log(testBall);
+    app.stage.addChild(testBall);
     return testBall
   }
 }
