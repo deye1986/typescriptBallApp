@@ -1,5 +1,7 @@
 My progress with typescript and pixi.js framework.
 
+![](images/pixijsBalls.png)
+
 02.08 - <strong> I think my script is stuck in a loop <strong>, when i use jsbin an online environment 
 for typescript the console goes crazy not like ive ever seen before. if anybody comes across 
 this script take caution running it because i only noticed when my browser stoped responding
