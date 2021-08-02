@@ -1,6 +1,6 @@
 My progress with typescript and pixi.js framework.
 
-![](images/pixijsBalls.png)
+![](images/pixijsBalls.PNG)
 30.07 - Im making a Ball class to order balls from,
 which eventually should move around a container of 500px x 500px. Im going to use pixi.js 
 framework to   make the graphics. there is a drawCircle method that im going to implement next 
