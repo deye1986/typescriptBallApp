@@ -6,8 +6,10 @@ come up with a plan with a pen on paper first - code second.
 get away from the computer whilst thinking about the task at hand and the plan.
 if it doesnt work, its probably because i told it do do somthing incorrectly.
 
-My first task in the plan was to break down the whole huge problem problem in to manageable portions;
---- TASK LIST : '*' == task done ---
+My first task in the plan was to break down the whole huge problem problem in to 
+manageable portions;
+'*' == task done
+
 1. *display a yellow canvas on the output
 2. *create a simple Ball class and members even if it does not work properly
 3. *initialize Ball objects from the class
